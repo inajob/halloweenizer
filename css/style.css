@@ -1,0 +1,36 @@
+/* style sheet */
+
+body{
+  background-color:#333;
+  color:white;
+}
+h1{
+  color:#d63;
+}
+h2{
+  background-color:#393;
+}
+
+#resultCanvas{
+}
+
+button{
+  border:solid 1px;
+  padding:1em;
+  background-color:#d63;
+  color:white;
+  font-size:2em;
+}
+
+.footer{
+  margin-top:1em;
+  padding:2em;
+  text-align:right;
+  background-color:#666;
+}
+.footer a{
+  color:#ddd;
+}
+.fav{
+  text-align:right;
+}

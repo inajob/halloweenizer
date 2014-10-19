@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width">
+<title>画像をハロウィン化！Halloweenizer!</title>
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+  article, aside, dialog, figure, footer, header,
+  hgroup, menu, nav, section { display: block; }
+</style>
+<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/megapix-image.js"></script>
+<script src="js/script.js"></script>
+</head>
+<body>
+  <h1>画像をハロウィン化！Halloweenizer!</h1>
+  <h2>ファイルを選ぶか、写真を撮影してください</h2>
+  <input type="file" id="fileInput" /><br/>
+  <canvas id="resultCanvas"></canvas><br/>
+  <h2>ハロウィン化します</h2>
+  <button id="halloweenize">Halloweenize</button><br/>
+  <canvas id="afterCanvas"></canvas><br/>
+  <h2>文字を入れます</h2>
+  <button id="tot">Trick or Treat?</button><br/>
+  <h2>新しい画面で開きます。そこから保存してください</h2>
+  <a id="link" target="_blank"><button>ひらく</button></a>
+
+  <div class="fav pad10 tar">
+    <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard-noballoon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+    <div class="fb-like" data-send="false" data-width="120" data-show-faces="true" data-colorscheme="dark" data-font="arial"></div>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-hashtags="ふつおた">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+
+
+  <div class="footer">
+
+    <div>つくったひと： <a href="http://twitter.com/ina_ani" target="_blank">@ina_ani</a></div>
+  </div>
+</body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+</html>
